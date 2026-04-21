@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uppgift 1</title>
+    <!-- <link rel="stylesheet" href="/css/main.css" /> -->
+    <style>
+      .site-header {
+        display: flex;
+      }
+
+      .site-header > div {
+        border: 1px solid black;
+      }
+
+      .site-header > div:nth-child(2) {
+        display: flex;
+        flex-grow: 2;
+        align-items: center;
+        padding: 1rem; /*16 px*/
+      }
+
+      .site-header input {
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="border">
+        <img src="https://placehold.co/200x100?text=Logotype" alt="Logotype" />
+      </div>
+      <div class="border">
+        <form>
+          <input type="search" name="q" placeholder="Sök produkt" />
+        </form>
+      </div>
+      <div class="border">3</div>
+    </header>
+  </body>
+</html>
